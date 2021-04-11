@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dibujo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div>
+    <label >Intrucciones : Copie la imagen de la derecha en el cuadrado de la izquierda. Para dibujar arrastre el mouse sobre el cuadrado izquierdo mientras hace click. Una vez terminado presione el boton Enviar. </label>
+  </div>
+  <div id="separator2" class="separator2">
+  </div>
+  <div id="container-canvas">
+    <div class="separator">
+    </div>
+    <div class="image">
+      <img src="img/figuraRey.jpg" class="img-rounded">
+    
+    </div>
+    <div class="separator">
+    </div>
+    <div id="paint" class="paint">
+      <canvas id="myCanvas"></canvas>
+    </div>
+  </div>
+  <div id="separator2" class="separator2">
+  </div>
+    <div class="form-group">
+      <button type="button" onclick="Enviar_click();" class="btn btn-block create-account">Enviar</button>
+  </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="css/dibujo.css">
+    <script src="vendor/jquery/dibujo.js"></script>
+    <script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u, i) {
+          if (!document.getElementById(i)){
+            e.async = 1;
+            e.src = u;
+            e.id = i;
+            f.parentNode.insertBefore(e, f);
+          }
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/pythoncentral/loader.js',
+        'tb_loader_script');
+        if(window.performance && typeof window.performance.mark == 'function')
+          {window.performance.mark('tbl_ic');}
+      </script><script type="text/javascript">
+              window._taboola = window._taboola || [];
+              _taboola.push({
+                mode: 'thumbnails-b',
+                container: 'taboola-below-article-thumbnails',
+                placement: 'Below Article Thumbnails',
+                target_type: 'mix'
+              });
+            </script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>        
+</body>
+</html>
+
